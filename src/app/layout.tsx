@@ -91,10 +91,11 @@ export default function RootLayout({
             
             <div className="border-t border-white/5 pt-12 flex flex-col md:flex-row justify-between items-center gap-8 text-slate-500 text-xs tracking-widest uppercase">
               <p>&copy; {new Date().getFullYear()} Adimentech. Engineered for Excellence.</p>
-              <div className="flex gap-10">
+              <div className="flex flex-wrap gap-6 md:gap-10">
                 <a href="#" className="hover:text-white transition-colors">Privacidad</a>
                 <a href="#" className="hover:text-white transition-colors">Términos</a>
                 <a href="#" className="hover:text-white transition-colors">Cookies</a>
+                <Link href="/admin" className="hover:text-white transition-colors opacity-40 hover:opacity-100">Admin</Link>
               </div>
             </div>
           </div>

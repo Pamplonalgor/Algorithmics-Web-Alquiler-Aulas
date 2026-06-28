@@ -138,8 +138,8 @@ export default function HomePage() {
       </section>
 
       {/* CTA Section */}
-      <section className="max-w-7xl mx-auto px-6 mb-40 relative z-10">
-        <div className="bg-gradient-to-br from-brand-cobalt to-brand-purple rounded-[4rem] p-16 md:p-24 text-center relative overflow-hidden shadow-2xl shadow-brand-cobalt/20 border border-white/10">
+      <section className="max-w-7xl mx-auto px-4 md:px-6 mb-40 relative z-10">
+        <div className="bg-gradient-to-br from-brand-cobalt to-brand-purple rounded-[3rem] md:rounded-[4rem] px-6 py-16 md:p-24 text-center relative overflow-hidden shadow-2xl shadow-brand-cobalt/20 border border-white/10">
           {/* Decorative Elements */}
           <div className="absolute top-0 right-0 w-96 h-96 bg-white/10 rounded-full -translate-y-1/2 translate-x-1/2 blur-3xl"></div>
           <div className="absolute bottom-0 left-0 w-64 h-64 bg-black/30 rounded-full translate-y-1/2 -translate-x-1/2 blur-3xl"></div>
@@ -149,10 +149,10 @@ export default function HomePage() {
             <path d="M 83 37 Q 83 52 93 52 Q 83 52 83 67 Q 83 52 73 52 Q 83 52 83 37 Z" />
           </svg>
 
-          <h2 className="text-5xl md:text-7xl font-medium text-white mb-10 tracking-normal leading-none relative z-10">
+          <h2 className="text-4xl md:text-7xl font-medium text-white mb-8 md:mb-10 tracking-normal leading-[1.15] md:leading-none relative z-10">
             ¿Listo para dar el <br className="hidden md:block" /> salto tecnológico?
           </h2>
-          <p className="text-slate-200/80 text-xl md:text-2xl mb-14 max-w-2xl mx-auto font-light relative z-10">
+          <p className="text-slate-200/80 text-lg md:text-2xl mb-12 md:mb-14 max-w-2xl mx-auto font-light relative z-10">
             Reserva tu aula hoy mismo o solicita una consultoría personalizada para desarrollar tus proyectos digitales.
           </p>
           <div className="flex flex-col sm:flex-row gap-6 justify-center relative z-10">

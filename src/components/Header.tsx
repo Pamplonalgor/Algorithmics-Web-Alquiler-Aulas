@@ -53,15 +53,7 @@ export default function Header() {
               </li>
             );
           })}
-          <li>
-            <Link 
-              href="/admin" 
-              className="text-sm font-medium text-slate-300 hover:text-white transition-colors"
-            >
-              Admin
-            </Link>
-          </li>
-        </ul>
+          </ul>
 
         {/* Mobile Menu Toggle */}
         <button 
@@ -75,7 +67,7 @@ export default function Header() {
         </button>
 
         {/* Mobile Menu Overlay */}
-        <div className={`fixed inset-0 bg-[#07020d]/98 z-[90] md:hidden flex flex-col justify-center items-center transition-all duration-500 ${
+        <div className={`fixed top-0 left-0 w-full h-[100dvh] bg-[#0A0E17] z-[90] md:hidden flex flex-col justify-center items-center transition-all duration-500 ${
           isMenuOpen ? 'opacity-100 pointer-events-auto' : 'opacity-0 pointer-events-none'
         }`}>
           <ul className="flex flex-col items-center gap-10">
@@ -95,15 +87,6 @@ export default function Header() {
                 </li>
               );
             })}
-            <li className="mt-4">
-              <Link 
-                href="/admin" 
-                className="text-2xl font-bold text-brand-magenta border-b-2 border-brand-purple/20 pb-2"
-                onClick={() => setIsMenuOpen(false)}
-              >
-                Panel de Administración
-              </Link>
-            </li>
           </ul>
         </div>
       </nav>
