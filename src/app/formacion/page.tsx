@@ -107,7 +107,7 @@ export default function TrainingPage() {
             to: formData.email,
             adminEmail: adminEmail,
             type: `Solicitud de Formación: ${selectedCourse?.title}`,
-            subject: 'Información sobre formación - Adimentech',
+            subject: 'Información sobre formación - Adimentek',
             html: `
               <div style="font-family: sans-serif; color: #333;">
                 <h1 style="color: #5e17eb;">¡Solicitud recibida!</h1>
@@ -119,7 +119,7 @@ export default function TrainingPage() {
                 </blockquote>
                 <p>Te enviaremos los detalles del programa y disponibilidad en breve.</p>
                 <hr />
-                <p style="font-size: 12px; color: #999;">Este es un mensaje automático de Adimentech.</p>
+                <p style="font-size: 12px; color: #999;">Este es un mensaje automático de Adimentek.</p>
               </div>
             `
           })

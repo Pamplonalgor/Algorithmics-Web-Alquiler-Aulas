@@ -65,7 +65,7 @@ export default function Contacto() {
                 </div>
                 <div>
                   <h4 className="text-brand-cyan font-medium uppercase text-xs tracking-widest mb-2">Email</h4>
-                  <p className="text-slate-300 text-lg font-light">info@adimentech.com</p>
+                  <p className="text-slate-300 text-lg font-light">info@adimentek.com</p>
                 </div>
               </div>
               <div className="flex items-start gap-6 group">

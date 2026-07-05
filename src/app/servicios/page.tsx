@@ -101,7 +101,7 @@ export default function ServicesPage() {
             to: formData.email,
             adminEmail: adminEmail,
             type: `Solicitud de Servicio: ${selectedService?.title}`,
-            subject: 'Recibida tu solicitud de información - Adimentech',
+            subject: 'Recibida tu solicitud de información - Adimentek',
             html: `
               <div style="font-family: sans-serif; color: #333;">
                 <h1 style="color: #5e17eb;">¡Solicitud recibida!</h1>
@@ -113,7 +113,7 @@ export default function ServicesPage() {
                 </blockquote>
                 <p>Nuestro equipo revisará tu solicitud y te contactará en menos de 24 horas.</p>
                 <hr />
-                <p style="font-size: 12px; color: #999;">Este es un mensaje automático de Adimentech.</p>
+                <p style="font-size: 12px; color: #999;">Este es un mensaje automático de Adimentek.</p>
               </div>
             `
           })

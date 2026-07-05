@@ -141,7 +141,7 @@ export default function BookingModal({ isOpen, onClose, selectedAula }: BookingM
             to: formData.email,
             adminEmail: adminEmail,
             type: 'Reserva de Aula',
-            subject: 'Confirmación de tu reserva - Adimentech',
+            subject: 'Confirmación de tu reserva - Adimentek',
             html: `
               <div style="font-family: sans-serif; color: #333;">
                 <h1 style="color: #5e17eb;">¡Reserva recibida!</h1>

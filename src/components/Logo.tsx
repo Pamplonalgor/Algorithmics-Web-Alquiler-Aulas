@@ -27,7 +27,7 @@ export default function Logo({ className = "", iconOnly = false }: LogoProps) {
       </div>
       {!iconOnly && (
         <span className="text-xl font-semibold tracking-tight text-white leading-none">
-          adimentech
+          adimentek
         </span>
       )}
     </Link>

@@ -5,7 +5,7 @@ import Header from "@/components/Header";
 import Logo from "@/components/Logo";
 
 export const metadata: Metadata = {
-  title: "Adimentech | Formación y Soluciones IT",
+  title: "Adimentek | Formación y Soluciones IT",
   description: "Alquiler de aulas premium y consultoría de soluciones IT de vanguardia.",
 };
 
@@ -35,14 +35,6 @@ export default function RootLayout({
                 <p className="text-slate-400 max-w-sm mb-10 text-lg leading-relaxed font-light">
                   Ofrecemos los mejores espacios y soluciones digitales para que tu talento y negocio crezcan sin límites.
                 </p>
-                <div className="flex gap-4">
-                  {['Instagram', 'LinkedIn', 'Twitter'].map(social => (
-                    <a key={social} href="#" className="w-12 h-12 rounded-2xl bg-white/5 border border-white/5 flex items-center justify-center text-slate-400 hover:border-brand-magenta hover:text-brand-magenta transition-all group">
-                      <span className="sr-only">{social}</span>
-                      <div className="text-sm font-bold group-hover:scale-110 transition-transform">{social[0]}</div>
-                    </a>
-                  ))}
-                </div>
               </div>
               
               <div>
@@ -90,7 +82,7 @@ export default function RootLayout({
             </div>
             
             <div className="border-t border-white/5 pt-12 flex flex-col md:flex-row justify-between items-center gap-8 text-slate-500 text-xs tracking-widest uppercase">
-              <p>&copy; {new Date().getFullYear()} Adimentech. Engineered for Excellence.</p>
+              <p>&copy; {new Date().getFullYear()} Adimentek. Engineered for Excellence.</p>
               <div className="flex flex-wrap gap-6 md:gap-10">
                 <a href="#" className="hover:text-white transition-colors">Privacidad</a>
                 <a href="#" className="hover:text-white transition-colors">Términos</a>
