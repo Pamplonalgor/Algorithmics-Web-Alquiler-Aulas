@@ -65,40 +65,10 @@ export default function SeniorTrainingPage() {
                   Innovación
                 </div>
                 <h3 className="text-3xl font-bold leading-tight mb-4">IA Práctica<br/>para tu vida</h3>
-                <p className="text-slate-600 leading-relaxed text-lg">Descubre cómo la inteligencia artificial puede ayudarte a organizar tareas, resolver dudas y ahorrar tiempo.</p>
-              </div>
+                <p className="text-slate-600 leading-relaxed text-lg">Descubre cómo la inteligencia artificial puede ayudarte a organizar tareas, resolver dudas y ahorrar tiempo.</p>            </div>
 
-              {/* Card 3: Diseño Creativo */}
-              <div className="bg-[#FFF4E5] rounded-[2.5rem] p-8 md:p-10 flex flex-col h-full hover:-translate-y-1 transition-transform shadow-sm">
-                <div className="bg-white/50 text-[#2d1b4e] text-xs font-bold px-4 py-2 rounded-full w-max mb-6">
-                  Creatividad
-                </div>
-                <h3 className="text-3xl font-bold leading-tight mb-4">Diseño Creativo<br/>con Canva + 3D</h3>
-                <p className="text-slate-600 leading-relaxed text-lg mb-8">Crea diseños increíbles, invitaciones y proyectos únicos. Aprende Canva paso a paso y descubre la impresión 3D para dar forma a tus ideas.</p>
-                
-                {/* Practical Data Sub-card */}
-                <div className="bg-white/40 rounded-2xl p-6 mt-auto border border-white/50">
-                  <div className="flex flex-col gap-4">
-                    <div className="flex items-center gap-3">
-                      <svg className="w-5 h-5 text-[#2d1b4e]" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth={1.5} d="M12 4.354a4 4 0 110 5.292M15 21H3v-1a6 6 0 0112 0v1zm0 0h6v-1a6 6 0 00-9-5.197M13 7a4 4 0 11-8 0 4 4 0 018 0z" /></svg>
-                      <span className="text-[#2d1b4e] font-medium text-sm">Máx. 6 alumnos</span>
-                    </div>
-                    <div className="flex items-center gap-3">
-                      <svg className="w-5 h-5 text-[#2d1b4e]" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth={1.5} d="M12 8v4l3 3m6-3a9 9 0 11-18 0 9 9 0 0118 0z" /></svg>
-                      <span className="text-[#2d1b4e] font-medium text-sm">1,5 h semanal</span>
-                    </div>
-                    <div className="flex items-center gap-3">
-                      <svg className="w-5 h-5 text-[#2d1b4e]" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth={1.5} d="M11.049 2.927c.3-.921 1.603-.921 1.902 0l1.519 4.674a1 1 0 00.95.69h4.915c.969 0 1.371 1.24.588 1.81l-3.976 2.888a1 1 0 00-.363 1.118l1.518 4.674c.3.922-.755 1.688-1.538 1.118l-3.976-2.888a1 1 0 00-1.176 0l-3.976 2.888c-.783.57-1.838-.197-1.538-1.118l1.518-4.674a1 1 0 00-.363-1.118l-3.976-2.888c-.784-.57-.38-1.81.588-1.81h4.914a1 1 0 00.951-.69l1.519-4.674z" /></svg>
-                      <span className="text-[#2d1b4e] font-medium text-sm">Todos los niveles</span>
-                    </div>
-                  </div>
-                </div>
-              </div>
-
-            </div>
-
-            {/* Right Column: 40% Collage (Sticky) */}
-            <div className="w-full lg:w-[40%] relative min-h-[450px] lg:min-h-[600px] lg:sticky lg:top-32 self-start bg-transparent flex items-center justify-center">
+            {/* Right Column: 40% Collage */}
+            <div className="w-full lg:w-[40%] relative min-h-[450px] lg:min-h-0 bg-transparent flex items-center justify-center">
               <div className="relative w-full h-full max-w-[450px] aspect-[4/5] lg:aspect-auto lg:absolute lg:inset-0">
                 {/* Photo 1 (Top Left) */}
                 <div className="absolute top-[5%] left-[5%] w-[55%] aspect-square rounded-[2rem] overflow-hidden shadow-lg border-[6px] border-[#FCF9F2] z-10 hover:scale-105 transition-transform duration-300">
@@ -115,6 +85,35 @@ export default function SeniorTrainingPage() {
               </div>
             </div>
 
+          </div>
+
+          {/* Bottom Card: Diseño Creativo */}
+          <div className="bg-[#FFF4E5] rounded-[2.5rem] p-8 md:p-10 flex flex-col hover:-translate-y-1 transition-transform shadow-sm w-full">
+            <div className="bg-white/50 text-[#2d1b4e] text-xs font-bold px-4 py-2 rounded-full w-max mb-6">
+              Creatividad
+            </div>
+            <div className="max-w-3xl">
+              <h3 className="text-3xl font-bold leading-tight mb-4">Diseño Creativo<br/>con Canva + 3D</h3>
+              <p className="text-slate-600 leading-relaxed text-lg mb-8">Crea diseños increíbles, invitaciones y proyectos únicos. Aprende Canva paso a paso y descubre la impresión 3D para dar forma a tus ideas.</p>
+            </div>
+            
+            {/* Practical Data Sub-card */}
+            <div className="bg-white/40 rounded-2xl p-6 mt-auto border border-white/50 w-full">
+              <div className="flex flex-col sm:flex-row gap-6 sm:gap-12">
+                <div className="flex items-center gap-3">
+                  <svg className="w-5 h-5 text-[#2d1b4e]" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth={1.5} d="M12 4.354a4 4 0 110 5.292M15 21H3v-1a6 6 0 0112 0v1zm0 0h6v-1a6 6 0 00-9-5.197M13 7a4 4 0 11-8 0 4 4 0 018 0z" /></svg>
+                  <span className="text-[#2d1b4e] font-medium text-sm">Máx. 6 alumnos</span>
+                </div>
+                <div className="flex items-center gap-3">
+                  <svg className="w-5 h-5 text-[#2d1b4e]" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth={1.5} d="M12 8v4l3 3m6-3a9 9 0 11-18 0 9 9 0 0118 0z" /></svg>
+                  <span className="text-[#2d1b4e] font-medium text-sm">1,5 h semanal</span>
+                </div>
+                <div className="flex items-center gap-3">
+                  <svg className="w-5 h-5 text-[#2d1b4e]" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth={1.5} d="M11.049 2.927c.3-.921 1.603-.921 1.902 0l1.519 4.674a1 1 0 00.95.69h4.915c.969 0 1.371 1.24.588 1.81l-3.976 2.888a1 1 0 00-.363 1.118l1.518 4.674c.3.922-.755 1.688-1.538 1.118l-3.976-2.888a1 1 0 00-1.176 0l-3.976 2.888c-.783.57-1.838-.197-1.538-1.118l1.518-4.674a1 1 0 00-.363-1.118l-3.976-2.888c-.784-.57-.38-1.81.588-1.81h4.914a1 1 0 00.951-.69l1.519-4.674z" /></svg>
+                  <span className="text-[#2d1b4e] font-medium text-sm">Todos los niveles</span>
+                </div>
+              </div>
+            </div>
           </div>
         </div>
 
