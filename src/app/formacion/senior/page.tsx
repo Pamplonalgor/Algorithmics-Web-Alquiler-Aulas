@@ -19,9 +19,9 @@ export default function SeniorTrainingPage() {
             Descubre.<br/>Conecta.<br/>Avanza.
           </h1>
           
-          <p className="text-xl text-slate-600 leading-relaxed font-light max-w-2xl mx-auto">
-            A tu ritmo, con confianza, <span className="font-semibold text-[#2d1b4e]">para tu día a día.</span><br/>
-            Un espacio donde descubrir la tecnología de forma práctica y con un ambiente cercano. ¡Nunca es tarde para aprender!
+          <p className="text-lg md:text-xl text-slate-600 leading-relaxed font-light max-w-2xl mx-auto px-2 md:px-0">
+            A tu ritmo, con confianza, <span className="font-semibold text-[#2d1b4e]">para tu día a día.</span>
+            <span className="block mt-3">Un espacio donde descubrir la tecnología de forma práctica y con un ambiente cercano. ¡Nunca es tarde para aprender!</span>
           </p>
 
           {/* Illustration Section */}
@@ -54,8 +54,8 @@ export default function SeniorTrainingPage() {
             <h3 className="text-3xl font-bold leading-tight mb-4">Tecnología<br/>Útil</h3>
             <p className="text-slate-600 mb-8 flex-grow leading-relaxed">Domina WhatsApp, Google Workspace, Viajes, Banca digital y Seguridad digital. Conecta, organízate y gana autonomía.</p>
             
-            <div className="bg-[#D3E4D6] rounded-[2rem] p-8 mt-auto flex items-center justify-center aspect-square shadow-inner">
-              <svg className="w-24 h-24 text-[#2A755F]" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+            <div className="bg-[#D3E4D6] rounded-3xl p-5 mt-auto flex items-center justify-center w-20 h-20 shadow-inner self-start">
+              <svg className="w-10 h-10 text-[#2A755F]" fill="none" viewBox="0 0 24 24" stroke="currentColor">
                 <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={1.5} d="M12 18h.01M8 21h8a2 2 0 002-2V5a2 2 0 00-2-2H8a2 2 0 00-2 2v14a2 2 0 002 2z" />
               </svg>
             </div>
@@ -69,8 +69,8 @@ export default function SeniorTrainingPage() {
             <h3 className="text-3xl font-bold leading-tight mb-4">IA Práctica<br/>para tu vida</h3>
             <p className="text-slate-600 mb-8 flex-grow leading-relaxed">Descubre cómo la inteligencia artificial puede ayudarte cada día a organizar tareas, resumir textos, y resolver dudas.</p>
             
-            <div className="bg-[#E4D1F0] rounded-[2rem] p-8 mt-auto flex items-center justify-center aspect-square shadow-inner">
-              <svg className="w-24 h-24 text-[#8B3A89]" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+            <div className="bg-[#E4D1F0] rounded-3xl p-5 mt-auto flex items-center justify-center w-20 h-20 shadow-inner self-start">
+              <svg className="w-10 h-10 text-[#8B3A89]" fill="none" viewBox="0 0 24 24" stroke="currentColor">
                 <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={1.5} d="M9.663 17h4.673M12 3v1m6.364 1.636l-.707.707M21 12h-1M4 12H3m3.343-5.657l-.707-.707m2.828 9.9a5 5 0 117.072 0l-.548.547A3.374 3.374 0 0014 18.469V19a2 2 0 11-4 0v-.531c0-.895-.356-1.754-.988-2.386l-.548-.547z" />
               </svg>
             </div>
