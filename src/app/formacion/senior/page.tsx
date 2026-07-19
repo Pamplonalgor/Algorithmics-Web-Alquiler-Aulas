@@ -19,13 +19,9 @@ export default function SeniorTrainingPage() {
             Tecnología útil para tu día a día
           </h1>
           
-          <h2 className="text-2xl md:text-3xl font-medium text-[#2d1b4e]/80 mb-6">
+          <h2 className="text-2xl md:text-3xl font-medium text-[#2d1b4e]/80 mb-12">
             Formación tecnológica e IA para personas sénior
           </h2>
-          
-          <p className="text-lg md:text-xl text-slate-600 leading-relaxed font-light max-w-2xl mx-auto px-4 md:px-0 mb-8">
-            Móvil, WhatsApp, Internet, IA y herramientas digitales explicadas paso a paso.
-          </p>
 
           {/* Illustration Section */}
           <div className="w-full flex justify-center mt-2 mb-4 md:mt-4 md:mb-6">
@@ -83,7 +79,7 @@ export default function SeniorTrainingPage() {
                 </div>
                 {/* Photo 2 (Bottom Left) */}
                 <div className="absolute bottom-[5%] left-[0%] w-[50%] aspect-[4/3] rounded-[2rem] overflow-hidden shadow-lg border-[6px] border-[#FCF9F2] z-20 hover:scale-105 transition-transform duration-300">
-                  <Image src="/senior_man_laptop.png" alt="Pareja con portátil" fill className="object-cover" />
+                  <Image src="/senior_couple_laptop.png" alt="Pareja con portátil" fill className="object-cover" />
                 </div>
                 {/* Photo 3 (Right) */}
                 <div className="absolute top-[20%] right-[5%] w-[55%] aspect-[3/4] rounded-[2rem] overflow-hidden shadow-xl border-[6px] border-[#FCF9F2] z-30 hover:scale-105 transition-transform duration-300">
