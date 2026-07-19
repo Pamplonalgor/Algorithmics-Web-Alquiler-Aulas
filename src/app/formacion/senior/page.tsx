@@ -65,7 +65,10 @@ export default function SeniorTrainingPage() {
                   Innovación
                 </div>
                 <h3 className="text-3xl font-bold leading-tight mb-4">IA Práctica<br/>para tu vida</h3>
-                <p className="text-slate-600 leading-relaxed text-lg">Descubre cómo la inteligencia artificial puede ayudarte a organizar tareas, resolver dudas y ahorrar tiempo.</p>            </div>
+                <p className="text-slate-600 leading-relaxed text-lg">Descubre cómo la inteligencia artificial puede ayudarte a organizar tareas, resolver dudas y ahorrar tiempo.</p>
+              </div>
+
+            </div>
 
             {/* Right Column: 40% Collage */}
             <div className="w-full lg:w-[40%] relative min-h-[450px] lg:min-h-0 bg-transparent flex items-center justify-center">
