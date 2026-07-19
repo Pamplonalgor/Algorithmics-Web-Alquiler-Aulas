@@ -7,14 +7,17 @@ export default function SeniorTrainingPage() {
       {/* Dark gradient at the very top so the global white header remains visible */}
       <div className="absolute top-0 left-0 w-full h-40 bg-gradient-to-b from-[#07020d]/80 to-transparent pointer-events-none z-0"></div>
 
-      <div className="max-w-5xl mx-auto flex flex-col items-center relative z-10">
+      <div className="max-w-5xl mx-auto relative z-10">
         
-        {/* Header Section (Centered) */}
-        <div className="text-center space-y-6 mb-16">
-          <Link href="/formacion" className="inline-flex items-center text-sm font-semibold text-slate-500 hover:text-[#2d1b4e] transition-colors bg-white px-4 py-2 rounded-full border border-slate-200 shadow-sm">
+        {/* Back Navigation */}
+        <div className="w-full flex justify-start mb-8">
+          <Link href="/formacion" className="inline-flex items-center text-sm font-semibold text-slate-600 hover:text-[#2d1b4e] transition-colors bg-white/80 backdrop-blur-sm px-4 py-2 rounded-full border border-slate-200/50 shadow-sm">
             Volver a Formación
           </Link>
-          
+        </div>
+
+        {/* Header Section (Centered) */}
+        <div className="text-center space-y-6 mb-16">
           <h1 className="text-4xl md:text-5xl lg:text-6xl font-bold leading-[1.1] tracking-tight text-[#2d1b4e] mb-4 max-w-4xl mx-auto">
             Tecnología útil para tu día a día
           </h1>
