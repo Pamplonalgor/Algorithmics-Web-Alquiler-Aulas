@@ -47,38 +47,54 @@ export default function SeniorTrainingPage() {
           </div>
         </div>
 
-        {/* Horizontal Cards */}
-        <div className="flex flex-col gap-6 w-full mb-8">
-          
-          {/* Card 1: Tecnología (Image Left) */}
-          <div className="bg-[#EAEFEA] rounded-[2.5rem] p-6 md:p-8 flex flex-col md:flex-row items-stretch hover:-translate-y-1 transition-transform shadow-sm gap-8">
-            <div className="w-full md:w-1/2 relative min-h-[250px] md:min-h-0 rounded-[2rem] overflow-hidden">
-              <Image src="/senior_mobile.png" alt="Persona sénior usando dispositivo móvil" fill className="object-cover" />
-            </div>
-            <div className="w-full md:w-1/2 flex flex-col justify-center py-4 md:py-8 pr-4">
-              <div className="bg-white/50 text-[#2d1b4e] text-xs font-bold px-4 py-2 rounded-full inline-flex w-max mb-6">
-                Para el día a día
+        {/* PeakMindz Style Layout */}
+        <div className="w-full mb-8">
+          <div className="flex flex-col lg:flex-row gap-6 mb-6">
+            
+            {/* Left Column: 60% */}
+            <div className="w-full lg:w-[60%] flex flex-col gap-6">
+              
+              {/* Card 1: Tecnología Útil */}
+              <div className="bg-[#EAEFEA] rounded-[2.5rem] p-8 md:p-10 flex flex-col h-full hover:-translate-y-1 transition-transform shadow-sm">
+                <div className="bg-white/50 text-[#2d1b4e] text-xs font-bold px-4 py-2 rounded-full w-max mb-6">
+                  Para el día a día
+                </div>
+                <h3 className="text-3xl font-bold leading-tight mb-4">Tecnología Útil</h3>
+                <p className="text-slate-600 leading-relaxed text-lg">Aprende WhatsApp, banca digital, videollamadas, viajes online y seguridad digital con confianza.</p>
               </div>
-              <h3 className="text-3xl font-bold leading-tight mb-4">Tecnología Útil</h3>
-              <p className="text-slate-600 leading-relaxed text-lg">Aprende WhatsApp, videollamadas, banca digital, viajes y trámites online con confianza.</p>
+
+              {/* Card 2: IA Práctica */}
+              <div className="bg-[#F2EAFA] rounded-[2.5rem] p-8 md:p-10 flex flex-col h-full hover:-translate-y-1 transition-transform shadow-sm">
+                <div className="bg-white/50 text-[#2d1b4e] text-xs font-bold px-4 py-2 rounded-full w-max mb-6">
+                  Innovación
+                </div>
+                <h3 className="text-3xl font-bold leading-tight mb-4">IA Práctica<br/>para tu vida</h3>
+                <p className="text-slate-600 leading-relaxed text-lg">Descubre cómo la inteligencia artificial puede ayudarte a organizar tareas, resolver dudas y ahorrar tiempo.</p>
+              </div>
+
             </div>
+
+            {/* Right Column: 40% Collage */}
+            <div className="w-full lg:w-[40%] relative min-h-[450px] lg:min-h-0 bg-transparent flex items-center justify-center">
+              <div className="relative w-full h-full max-w-[450px] aspect-[4/5] lg:aspect-auto lg:absolute lg:inset-0">
+                {/* Photo 1 (Top Left) */}
+                <div className="absolute top-[5%] left-[5%] w-[55%] aspect-square rounded-[2rem] overflow-hidden shadow-lg border-[6px] border-[#FCF9F2] z-10 hover:scale-105 transition-transform duration-300">
+                  <Image src="/senior_mobile.png" alt="Persona usando móvil" fill className="object-cover" />
+                </div>
+                {/* Photo 2 (Bottom Left) */}
+                <div className="absolute bottom-[5%] left-[0%] w-[50%] aspect-[4/3] rounded-[2rem] overflow-hidden shadow-lg border-[6px] border-[#FCF9F2] z-20 hover:scale-105 transition-transform duration-300">
+                  <Image src="/senior_man_laptop.png" alt="Pareja con portátil" fill className="object-cover" />
+                </div>
+                {/* Photo 3 (Right) */}
+                <div className="absolute top-[20%] right-[5%] w-[55%] aspect-[3/4] rounded-[2rem] overflow-hidden shadow-xl border-[6px] border-[#FCF9F2] z-30 hover:scale-105 transition-transform duration-300">
+                  <Image src="/senior_group_class.png" alt="Grupo en clase" fill className="object-cover" />
+                </div>
+              </div>
+            </div>
+
           </div>
 
-          {/* Card 2: IA Práctica (Image Right) */}
-          <div className="bg-[#F2EAFA] rounded-[2.5rem] p-6 md:p-8 flex flex-col md:flex-row-reverse items-stretch hover:-translate-y-1 transition-transform shadow-sm gap-8">
-            <div className="w-full md:w-1/2 relative min-h-[250px] md:min-h-0 rounded-[2rem] overflow-hidden">
-              <Image src="/senior_man_laptop.png" alt="Hombre sénior usando ordenador portátil" fill className="object-cover" />
-            </div>
-            <div className="w-full md:w-1/2 flex flex-col justify-center py-4 md:py-8 md:pl-8">
-              <div className="bg-white/50 text-[#2d1b4e] text-xs font-bold px-4 py-2 rounded-full inline-flex w-max mb-6">
-                Innovación
-              </div>
-              <h3 className="text-3xl font-bold leading-tight mb-4">IA Práctica<br/>para tu vida</h3>
-              <p className="text-slate-600 leading-relaxed text-lg">Descubre cómo la inteligencia artificial puede ayudarte a organizar tareas, resolver dudas y ahorrar tiempo.</p>
-            </div>
-          </div>
-
-          {/* Card 3: Diseño Creativo (Image Left) */}
+          {/* Bottom Card: Diseño Creativo (100% width) */}
           <div className="bg-[#FFF4E5] rounded-[2.5rem] p-6 md:p-8 flex flex-col md:flex-row items-stretch hover:-translate-y-1 transition-transform shadow-sm gap-8">
             <div className="w-full md:w-1/2 relative min-h-[250px] md:min-h-0 rounded-[2rem] overflow-hidden">
               <Image src="/two_seniors_learning.png" alt="Seniors aprendiendo diseño" fill className="object-cover" />
