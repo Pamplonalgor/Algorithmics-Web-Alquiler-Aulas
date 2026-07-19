@@ -67,6 +67,14 @@ export default function SeniorTrainingPage() {
                 <h3 className="text-3xl font-bold leading-tight mb-4">IA Práctica<br/>para tu vida</h3>
                 <p className="text-slate-600 leading-relaxed text-lg">Descubre cómo la inteligencia artificial puede ayudarte a organizar tareas, resolver dudas y ahorrar tiempo.</p>
               </div>
+              {/* Card 3: Diseño Creativo */}
+              <div className="bg-[#FFF4E5] rounded-[2.5rem] p-8 md:p-10 flex flex-col hover:-translate-y-1 transition-transform shadow-sm h-full">
+                <div className="bg-white/50 text-[#2d1b4e] text-xs font-bold px-4 py-2 rounded-full w-max mb-6">
+                  Creatividad
+                </div>
+                <h3 className="text-3xl font-bold leading-tight mb-4">Diseño Creativo<br/>con Canva + 3D</h3>
+                <p className="text-slate-600 leading-relaxed text-lg">Crea diseños increíbles, invitaciones y proyectos únicos. Aprende Canva paso a paso y descubre la impresión 3D para dar forma a tus ideas.</p>
+              </div>
 
             </div>
 
@@ -77,9 +85,9 @@ export default function SeniorTrainingPage() {
                 <div className="absolute top-[5%] left-[5%] w-[55%] aspect-square rounded-[2rem] overflow-hidden shadow-lg border-[6px] border-[#FCF9F2] z-20 hover:scale-105 transition-transform duration-300">
                   <Image src="/senior_mobile_v2.png" alt="Persona usando móvil" fill className="object-cover" />
                 </div>
-                {/* Photo 2 (Bottom Left) */}
+                {/* Photo 2 (Bottom Left) - Focused/Normal */}
                 <div className="absolute bottom-[5%] left-[0%] w-[50%] aspect-[4/3] rounded-[2rem] overflow-hidden shadow-lg border-[6px] border-[#FCF9F2] z-10 hover:scale-105 transition-transform duration-300">
-                  <Image src="/senior_couple_v2.png" alt="Pareja con portátil" fill className="object-cover" />
+                  <Image src="/senior_man_laptop.png" alt="Hombre concentrado con portátil" fill className="object-cover" />
                 </div>
                 {/* Photo 3 (Right) */}
                 <div className="absolute top-[20%] right-[5%] w-[55%] aspect-[3/4] rounded-[2rem] overflow-hidden shadow-xl border-[6px] border-[#FCF9F2] z-30 hover:scale-105 transition-transform duration-300">
@@ -88,17 +96,6 @@ export default function SeniorTrainingPage() {
               </div>
             </div>
 
-          </div>
-
-          {/* Bottom Card: Diseño Creativo */}
-          <div className="bg-[#FFF4E5] rounded-[2.5rem] p-8 md:p-10 flex flex-col hover:-translate-y-1 transition-transform shadow-sm w-full mb-8">
-            <div className="bg-white/50 text-[#2d1b4e] text-xs font-bold px-4 py-2 rounded-full w-max mb-6">
-              Creatividad
-            </div>
-            <div className="max-w-3xl">
-              <h3 className="text-3xl font-bold leading-tight mb-4">Diseño Creativo<br/>con Canva + 3D</h3>
-              <p className="text-slate-600 leading-relaxed text-lg">Crea diseños increíbles, invitaciones y proyectos únicos. Aprende Canva paso a paso y descubre la impresión 3D para dar forma a tus ideas.</p>
-            </div>
           </div>
 
           {/* Section Footer: Practical Data */}
