@@ -67,7 +67,7 @@ export default function SeniorTrainingPage() {
           {/* Card 2: IA Práctica (Image Right) */}
           <div className="bg-[#F2EAFA] rounded-[2.5rem] p-6 md:p-8 flex flex-col md:flex-row-reverse items-stretch hover:-translate-y-1 transition-transform shadow-sm gap-8">
             <div className="w-full md:w-1/2 relative min-h-[250px] md:min-h-0 rounded-[2rem] overflow-hidden">
-              <Image src="/senior_laptop.png" alt="Persona sénior usando ordenador portátil" fill className="object-cover" />
+              <Image src="/senior_man_laptop.png" alt="Hombre sénior usando ordenador portátil" fill className="object-cover" />
             </div>
             <div className="w-full md:w-1/2 flex flex-col justify-center py-4 md:py-8 md:pl-8">
               <div className="bg-white/50 text-[#2d1b4e] text-xs font-bold px-4 py-2 rounded-full inline-flex w-max mb-6">
@@ -78,44 +78,26 @@ export default function SeniorTrainingPage() {
             </div>
           </div>
 
-        </div>
-
-        {/* Bottom Card: Horizontal with Image */}
-        <div className="bg-[#FFF4E5] rounded-[2rem] p-6 md:p-8 w-full flex flex-col md:flex-row gap-8 items-center shadow-sm hover:-translate-y-1 transition-transform">
-          {/* Image Left */}
-          <div className="w-full md:w-1/3 relative aspect-[4/3] rounded-[1.5rem] overflow-hidden shadow-sm border-4 border-white">
-            <Image 
-              src="/two_seniors_learning.png" 
-              alt="Seniors aprendiendo tecnología" 
-              fill
-              className="object-cover"
-            />
-          </div>
-          
-          {/* Content Center */}
-          <div className="w-full md:w-1/3 flex flex-col justify-center text-center md:text-left">
-            <div className="bg-white/50 text-[#2d1b4e] text-xs font-bold px-3 py-1.5 rounded-full inline-flex w-max mb-4 mx-auto md:mx-0">
-              Creatividad
+          {/* Card 3: Diseño Creativo (Image Left) */}
+          <div className="bg-[#FFF4E5] rounded-[2.5rem] p-6 md:p-8 flex flex-col md:flex-row items-stretch hover:-translate-y-1 transition-transform shadow-sm gap-8">
+            <div className="w-full md:w-1/2 relative min-h-[250px] md:min-h-0 rounded-[2rem] overflow-hidden">
+              <Image src="/two_seniors_learning.png" alt="Seniors aprendiendo diseño" fill className="object-cover" />
             </div>
-            <h3 className="text-2xl font-bold leading-tight mb-3">Diseño Creativo<br/>con Canva + 3D</h3>
-            <p className="text-slate-600 leading-relaxed text-base">Crea diseños increíbles, invitaciones y proyectos únicos. Desde Canva desde cero hasta impresión 3D para dar forma a tus ideas.</p>
+            <div className="w-full md:w-1/2 flex flex-col justify-center py-4 md:py-8 pr-4">
+              <div className="bg-white/50 text-[#2d1b4e] text-xs font-bold px-4 py-2 rounded-full inline-flex w-max mb-6">
+                Creatividad
+              </div>
+              <h3 className="text-3xl font-bold leading-tight mb-4">Diseño Creativo<br/>con Canva + 3D</h3>
+              <p className="text-slate-600 leading-relaxed text-lg mb-6">Crea diseños increíbles, invitaciones y proyectos únicos. Desde Canva desde cero hasta impresión 3D para dar forma a tus ideas.</p>
+              
+              <div className="flex flex-wrap gap-2">
+                <span className="bg-white px-3 py-1.5 rounded-xl shadow-sm text-xs font-medium text-[#2d1b4e]">Max. 6 alumnos</span>
+                <span className="bg-white px-3 py-1.5 rounded-xl shadow-sm text-xs font-medium text-[#2d1b4e]">1.5h semanal</span>
+                <span className="bg-white px-3 py-1.5 rounded-xl shadow-sm text-xs font-medium text-[#2d1b4e]">Todos niveles</span>
+              </div>
+            </div>
           </div>
 
-          {/* Tags Right */}
-          <div className="w-full md:w-1/3 flex flex-col justify-center gap-2">
-            <div className="bg-white px-4 py-2 rounded-xl shadow-sm text-center font-medium text-sm text-[#2d1b4e]">
-              Max. 6 alumnos
-            </div>
-            <div className="bg-white px-4 py-2 rounded-xl shadow-sm text-center font-medium text-sm text-[#2d1b4e]">
-              1.5h semanal
-            </div>
-            <div className="bg-white px-4 py-2 rounded-xl shadow-sm text-center font-medium text-sm text-[#2d1b4e]">
-              Ambiente cercano
-            </div>
-            <div className="bg-white px-4 py-2 rounded-xl shadow-sm text-center font-medium text-sm text-[#2d1b4e]">
-              Todos los niveles
-            </div>
-          </div>
         </div>
 
       </div>
