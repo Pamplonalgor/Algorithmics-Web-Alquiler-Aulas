@@ -18,7 +18,7 @@ export default function SeniorTrainingPage() {
               Tecnología útil para tu día a día
             </h1>
             
-            <h2 className="text-xl md:text-2xl font-medium text-slate-600 leading-normal max-w-lg mb-5">
+            <h2 className="text-xl md:text-2xl font-medium text-slate-600 leading-normal max-w-lg mb-2">
               Formación tecnológica e IA para personas sénior
             </h2>
 
