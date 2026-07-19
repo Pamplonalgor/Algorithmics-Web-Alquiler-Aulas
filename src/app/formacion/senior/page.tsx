@@ -16,11 +16,11 @@ export default function SeniorTrainingPage() {
           </Link>
           
           <h1 className="text-4xl md:text-5xl lg:text-6xl font-bold leading-[1.1] tracking-tight text-[#2d1b4e] mb-4 max-w-4xl mx-auto">
-            Nunca es tarde para aprender tecnología
+            Tecnología útil para tu día a día
           </h1>
           
           <h2 className="text-2xl md:text-3xl font-medium text-[#2d1b4e]/80 mb-6">
-            Cursos prácticos para personas sénior
+            Formación tecnológica e IA para personas sénior
           </h2>
           
           <p className="text-lg md:text-xl text-slate-600 leading-relaxed font-light max-w-2xl mx-auto px-4 md:px-0 mb-8">
