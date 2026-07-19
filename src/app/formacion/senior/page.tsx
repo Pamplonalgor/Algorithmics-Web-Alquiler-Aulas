@@ -15,23 +15,26 @@ export default function SeniorTrainingPage() {
             ← Volver a Formación
           </Link>
           
-          <h1 className="text-5xl md:text-6xl lg:text-7xl font-semibold leading-[1.1] tracking-tight text-[#2d1b4e]">
-            Descubre.<br/>Conecta.<br/>Avanza.
+          <h1 className="text-4xl md:text-5xl lg:text-6xl font-bold leading-[1.1] tracking-tight text-[#2d1b4e] mb-4">
+            Tecnología e IA para personas sénior
           </h1>
           
-          <p className="text-lg md:text-xl text-slate-600 leading-relaxed font-light max-w-2xl mx-auto px-2 md:px-0">
-            A tu ritmo, con confianza, <span className="font-semibold text-[#2d1b4e]">para tu día a día.</span>
-            <span className="block mt-3">Un espacio donde descubrir la tecnología de forma práctica y con un ambiente cercano. ¡Nunca es tarde para aprender!</span>
+          <h2 className="text-2xl md:text-3xl font-medium text-[#2d1b4e]/80 mb-6">
+            Descubre. Conecta. Avanza.
+          </h2>
+          
+          <p className="text-lg md:text-xl text-slate-600 leading-relaxed font-light max-w-2xl mx-auto px-4 md:px-0 mb-8">
+            Aprende a usar el móvil, WhatsApp, Internet e Inteligencia Artificial de forma sencilla, práctica y a tu ritmo. Grupos reducidos y un ambiente cercano para ganar confianza digital.
           </p>
 
           {/* Illustration Section */}
-          <div className="w-full flex justify-center mt-4 mb-2 md:mt-8 md:mb-4">
+          <div className="w-full flex justify-center mt-2 mb-4 md:mt-4 md:mb-6">
             <Image 
               src="/hands_laptop.png" 
-              alt="Ilustración decorativa" 
-              width={800}
-              height={500}
-              className="w-[320px] sm:w-[450px] md:w-[650px] lg:w-[800px] h-auto object-contain translate-y-2"
+              alt="Ilustración tecnología senior" 
+              width={400}
+              height={250}
+              className="w-[280px] sm:w-[350px] md:w-[400px] h-auto object-contain"
               priority
             />
           </div>
