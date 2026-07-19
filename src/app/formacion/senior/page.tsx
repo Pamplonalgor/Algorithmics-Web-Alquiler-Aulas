@@ -15,8 +15,8 @@ export default function SeniorTrainingPage() {
             ← Volver a Formación
           </Link>
           
-          <h1 className="text-6xl md:text-7xl font-black leading-[1.1] tracking-tight">
-            Aprende.<br/>Crea.<br/>Disfruta.
+          <h1 className="text-5xl md:text-6xl lg:text-7xl font-black leading-[1.1] tracking-tight">
+            Descubre.<br/>Conecta.<br/>Avanza.
           </h1>
           
           <p className="text-xl text-slate-300 leading-relaxed font-light">
@@ -26,9 +26,9 @@ export default function SeniorTrainingPage() {
 
           <div className="pt-8 space-y-4">
             <h3 className="font-bold text-xs uppercase tracking-[0.2em] text-slate-400">Plazas Limitadas</h3>
-            <a href="mailto:pamplona@algoacademy.es" className="block w-full bg-white text-slate-900 text-center py-5 rounded-[2rem] font-black text-lg hover:bg-slate-200 transition-all shadow-xl hover:-translate-y-1">
+            <Link href="/contacto" className="block w-full bg-white text-slate-900 text-center py-4 md:py-5 rounded-[2rem] font-black text-lg hover:bg-slate-200 transition-all shadow-xl hover:-translate-y-1">
               Pide Información
-            </a>
+            </Link>
             <p className="text-sm text-center text-slate-500 font-medium">o llama al <span className="font-bold text-slate-300">689 46 78 52</span></p>
           </div>
         </div>
@@ -78,19 +78,19 @@ export default function SeniorTrainingPage() {
                 
                 <div className="grid grid-cols-2 gap-4">
                   <div className="flex items-center gap-3 bg-white/5 p-4 rounded-2xl">
-                    <span className="text-orange-400 text-xl">👥</span>
+                    <div className="w-2.5 h-2.5 rounded-full bg-orange-400 shadow-[0_0_8px_rgba(251,146,60,0.8)]"></div>
                     <span className="text-sm font-medium text-slate-300">Max. 6 alumnos</span>
                   </div>
                   <div className="flex items-center gap-3 bg-white/5 p-4 rounded-2xl">
-                    <span className="text-orange-400 text-xl">⏱️</span>
+                    <div className="w-2.5 h-2.5 rounded-full bg-orange-400 shadow-[0_0_8px_rgba(251,146,60,0.8)]"></div>
                     <span className="text-sm font-medium text-slate-300">1.5h semanal</span>
                   </div>
                   <div className="flex items-center gap-3 bg-white/5 p-4 rounded-2xl">
-                    <span className="text-orange-400 text-xl">🤝</span>
+                    <div className="w-2.5 h-2.5 rounded-full bg-orange-400 shadow-[0_0_8px_rgba(251,146,60,0.8)]"></div>
                     <span className="text-sm font-medium text-slate-300">Ambiente cercano</span>
                   </div>
                   <div className="flex items-center gap-3 bg-white/5 p-4 rounded-2xl">
-                    <span className="text-orange-400 text-xl">🌟</span>
+                    <div className="w-2.5 h-2.5 rounded-full bg-orange-400 shadow-[0_0_8px_rgba(251,146,60,0.8)]"></div>
                     <span className="text-sm font-medium text-slate-300">Todos los niveles</span>
                   </div>
                 </div>

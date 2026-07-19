@@ -197,7 +197,6 @@ export default function TrainingPage() {
               className="px-8 py-4 rounded-full font-black text-sm transition-all duration-300 text-slate-500 hover:text-white border border-transparent hover:border-orange-500/30 hover:bg-orange-500/5 flex items-center gap-2"
             >
               Formación Senior
-              <span className="text-orange-400 opacity-70">↗</span>
             </Link>
           </div>
         </div>
