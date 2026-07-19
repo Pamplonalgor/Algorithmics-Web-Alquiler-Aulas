@@ -33,13 +33,14 @@ export default function SeniorTrainingPage() {
         </div>
 
         {/* Illustration Section */}
-        <div className="w-full text-center mb-8 flex flex-col items-center">
-          <div className="relative w-56 h-56 md:w-64 md:h-64">
+        <div className="w-full flex justify-center mb-12">
+          <div className="relative w-[200px] h-[200px] md:w-[300px] md:h-[300px]">
             <Image 
               src="/hands_laptop.png" 
-              alt="Ilustración manos y ordenador" 
+              alt="Ilustración decorativa" 
               fill
-              className="object-contain mix-blend-multiply opacity-90"
+              className="object-contain"
+              priority
             />
           </div>
         </div>
