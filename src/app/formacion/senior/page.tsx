@@ -11,6 +11,10 @@ export default function SeniorTrainingPage() {
         
         {/* Header Section (Centered) */}
         <div className="text-center space-y-6 mb-16">
+          <Link href="/formacion" className="inline-flex items-center text-sm font-semibold text-slate-500 hover:text-[#2d1b4e] transition-colors bg-white px-4 py-2 rounded-full border border-slate-200 shadow-sm">
+            Volver a Formación
+          </Link>
+          
           <h1 className="text-4xl md:text-5xl lg:text-6xl font-bold leading-[1.1] tracking-tight text-[#2d1b4e] mb-4 max-w-4xl mx-auto">
             Tecnología útil para tu día a día
           </h1>
