@@ -93,6 +93,10 @@ export default function SeniorTrainingPage() {
                 <div className="absolute top-[20%] right-[0%] w-[55%] aspect-[3/4] rounded-[2rem] overflow-hidden shadow-lg border-[6px] border-[#FCF9F2] z-10 hover:scale-105 transition-transform duration-300">
                   <Image src="/senior_group_v2.png" alt="Grupo en clase" fill className="object-cover" />
                 </div>
+                {/* Photo 4 (Bottom Right) - App/Banking */}
+                <div className="absolute bottom-[0%] right-[5%] w-[45%] aspect-square rounded-[2rem] overflow-hidden shadow-lg border-[6px] border-[#FCF9F2] z-20 hover:scale-105 transition-transform duration-300">
+                  <Image src="/app_screen.png" alt="Pantalla de aplicación móvil" fill className="object-cover" />
+                </div>
               </div>
             </div>
 
