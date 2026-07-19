@@ -1,6 +1,7 @@
 'use client';
 
 import { useEffect, useState } from 'react';
+import Link from 'next/link';
 import { supabase } from '@/lib/supabaseClient';
 import { TrainingCourse } from '@/lib/types';
 
@@ -170,7 +171,7 @@ export default function TrainingPage() {
 
         {/* Tab Switcher */}
         <div className="flex justify-center mb-20">
-          <div className="bg-slate-900/40 p-2 rounded-full border border-slate-900 flex gap-2 backdrop-blur-md">
+          <div className="bg-slate-900/40 p-2 rounded-full border border-slate-900 flex gap-2 backdrop-blur-md flex-wrap justify-center">
             <button 
               onClick={() => setActiveTab('empresa')}
               className={`px-8 py-4 rounded-full font-black text-sm transition-all duration-300 ${
@@ -191,6 +192,13 @@ export default function TrainingPage() {
             >
               Formación Algorithmics
             </button>
+            <Link 
+              href="/formacion/senior"
+              className="px-8 py-4 rounded-full font-black text-sm transition-all duration-300 text-slate-500 hover:text-white border border-transparent hover:border-orange-500/30 hover:bg-orange-500/5 flex items-center gap-2"
+            >
+              Formación Senior
+              <span className="text-orange-400 opacity-70">↗</span>
+            </Link>
           </div>
         </div>
 
