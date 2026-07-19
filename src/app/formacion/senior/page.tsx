@@ -98,6 +98,10 @@ export default function SeniorTrainingPage() {
                 <div className="absolute bottom-[0%] left-[5%] w-[65%] aspect-[4/3] rounded-[2rem] overflow-hidden shadow-xl border-[6px] border-[#FCF9F2] z-30 hover:scale-105 transition-transform duration-300">
                   <Image src="/senior_couple_laptop.png" alt="Pareja concentrada con portátil" fill className="object-cover" />
                 </div>
+                {/* Photo 4 (Bottom Right) */}
+                <div className="absolute bottom-[-5%] right-[0%] w-[45%] aspect-[4/5] rounded-[2rem] overflow-hidden shadow-xl border-[6px] border-[#FCF9F2] z-40 hover:scale-105 transition-transform duration-300">
+                  <Image src="/app_screen.png" alt="Pantalla de aplicación" fill className="object-cover" />
+                </div>
               </div>
             </div>
 
