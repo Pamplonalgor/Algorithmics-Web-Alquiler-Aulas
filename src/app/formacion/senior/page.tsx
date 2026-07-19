@@ -91,7 +91,8 @@ export default function SeniorTrainingPage() {
           </div>
 
           {/* Bottom Card: Diseño Creativo */}
-          <div className="bg-[#FFF4E5] rounded-[2.5rem] p-8 md:p-10 flex flex-col md:flex-row items-center justify-between gap-8 hover:-translate-y-1 transition-transform shadow-sm w-full mb-8 relative overflow-hidden">
+          {/* Bottom Card: Diseño Creativo */}
+          <div className="bg-[#FFF4E5] rounded-[2.5rem] p-8 md:p-10 flex flex-col md:flex-row items-center justify-between gap-8 hover:-translate-y-1 transition-transform shadow-sm w-full mb-8 relative">
             <div className="max-w-2xl relative z-10">
               <div className="bg-white/50 text-[#2d1b4e] text-xs font-bold px-4 py-2 rounded-full w-max mb-6">
                 Creatividad
@@ -100,13 +101,13 @@ export default function SeniorTrainingPage() {
               <p className="text-slate-600 leading-relaxed text-lg">Crea diseños increíbles, invitaciones y proyectos únicos. Aprende Canva paso a paso y descubre la impresión 3D para dar forma a tus ideas.</p>
             </div>
             
-            <div className="w-full md:w-auto flex justify-center md:justify-end relative z-10 shrink-0">
+            <div className="w-full md:w-[280px] h-[180px] md:h-[220px] flex justify-center md:justify-end relative z-10 shrink-0 mt-6 md:mt-0">
               <Image 
-                src="/hands_laptop.png" 
+                src="/hands_laptop_typing.png" 
                 alt="Ilustración Diseño Creativo" 
-                width={280} 
-                height={200} 
-                className="w-[200px] md:w-[280px] h-auto object-contain hover:scale-105 transition-transform duration-300 drop-shadow-sm"
+                width={320} 
+                height={240} 
+                className="w-[240px] md:w-[340px] h-auto object-contain hover:scale-105 transition-transform duration-300 drop-shadow-sm absolute right-1/2 translate-x-1/2 md:translate-x-0 md:-right-16 top-1/2 -translate-y-1/2"
               />
             </div>
           </div>
