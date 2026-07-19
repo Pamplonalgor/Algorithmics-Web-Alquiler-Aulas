@@ -91,23 +91,50 @@ export default function SeniorTrainingPage() {
           </div>
 
           {/* Bottom Card: Diseño Creativo (100% width) */}
-          <div className="bg-[#FFF4E5] rounded-[2.5rem] p-6 md:p-8 flex flex-col md:flex-row items-stretch hover:-translate-y-1 transition-transform shadow-sm gap-8">
-            <div className="w-full md:w-1/2 relative min-h-[250px] md:min-h-0 rounded-[2rem] overflow-hidden">
-              <Image src="/two_seniors_learning.png" alt="Seniors aprendiendo diseño" fill className="object-cover" />
-            </div>
-            <div className="w-full md:w-1/2 flex flex-col justify-center py-4 md:py-8 pr-4">
-              <div className="bg-white/50 text-[#2d1b4e] text-xs font-bold px-4 py-2 rounded-full inline-flex w-max mb-6">
+          <div className="bg-[#FFF4E5] rounded-[2.5rem] p-8 md:p-10 flex flex-col lg:flex-row items-stretch hover:-translate-y-1 transition-transform shadow-sm gap-8">
+            
+            {/* Left Content (60%) */}
+            <div className="w-full lg:w-[60%] flex flex-col justify-center">
+              <div className="bg-white/50 text-[#2d1b4e] text-xs font-bold px-4 py-2 rounded-full w-max mb-6">
                 Creatividad
               </div>
-              <h3 className="text-3xl font-bold leading-tight mb-4">Diseño Creativo<br/>con Canva + 3D</h3>
-              <p className="text-slate-600 leading-relaxed text-lg mb-6">Crea diseños increíbles, invitaciones y proyectos únicos. Desde Canva desde cero hasta impresión 3D para dar forma a tus ideas.</p>
+              <h3 className="text-3xl md:text-4xl font-bold leading-tight mb-4">Diseño Creativo<br/>con Canva + 3D</h3>
+              <p className="text-slate-600 leading-relaxed text-lg mb-8">
+                Crea diseños increíbles, invitaciones y proyectos únicos. Aprende Canva paso a paso y descubre la impresión 3D para dar forma a tus ideas.
+              </p>
               
-              <div className="flex flex-wrap gap-2">
-                <span className="bg-white px-3 py-1.5 rounded-xl shadow-sm text-xs font-medium text-[#2d1b4e]">Max. 6 alumnos</span>
-                <span className="bg-white px-3 py-1.5 rounded-xl shadow-sm text-xs font-medium text-[#2d1b4e]">1.5h semanal</span>
-                <span className="bg-white px-3 py-1.5 rounded-xl shadow-sm text-xs font-medium text-[#2d1b4e]">Todos niveles</span>
+              <div className="h-px w-full bg-[#2d1b4e]/10 mb-8"></div>
+              
+              <div className="flex flex-col sm:flex-row gap-4 sm:gap-8">
+                <div className="flex items-center gap-2">
+                  <span className="text-xl">👥</span>
+                  <span className="text-[#2d1b4e] font-medium text-sm">Máx. 6 alumnos</span>
+                </div>
+                <div className="flex items-center gap-2">
+                  <span className="text-xl">🕒</span>
+                  <span className="text-[#2d1b4e] font-medium text-sm">1,5 h semanal</span>
+                </div>
+                <div className="flex items-center gap-2">
+                  <span className="text-xl">⭐</span>
+                  <span className="text-[#2d1b4e] font-medium text-sm">Todos los niveles</span>
+                </div>
               </div>
             </div>
+
+            {/* Right Collage (40%) */}
+            <div className="w-full lg:w-[40%] relative min-h-[300px] lg:min-h-0 bg-transparent flex items-center justify-center mt-6 lg:mt-0">
+              <div className="relative w-full h-full max-w-[350px] aspect-square lg:aspect-auto lg:absolute lg:inset-0 lg:my-8 lg:mr-8">
+                {/* Main Photo */}
+                <div className="absolute top-0 right-0 w-[80%] aspect-[4/3] rounded-[2rem] overflow-hidden shadow-lg border-[6px] border-[#FFF4E5] z-10 hover:scale-105 transition-transform duration-300">
+                  <Image src="/two_seniors_learning.png" alt="Seniors aprendiendo diseño" fill className="object-cover" />
+                </div>
+                {/* Secondary Photo */}
+                <div className="absolute bottom-[10%] left-0 w-[55%] aspect-square rounded-[2rem] overflow-hidden shadow-xl border-[6px] border-[#FFF4E5] z-20 hover:scale-105 transition-transform duration-300">
+                  <Image src="/senior_laptop.png" alt="Sénior practicando Canva" fill className="object-cover" />
+                </div>
+              </div>
+            </div>
+
           </div>
 
         </div>
