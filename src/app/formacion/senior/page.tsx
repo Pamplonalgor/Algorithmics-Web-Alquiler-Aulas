@@ -33,17 +33,15 @@ export default function SeniorTrainingPage() {
         </div>
 
         {/* Illustration Section */}
-        <div className="w-full text-center mb-12 flex flex-col items-center">
-          <div className="relative w-48 h-48 md:w-56 md:h-56 mb-2">
+        <div className="w-full text-center mb-8 flex flex-col items-center">
+          <div className="relative w-56 h-56 md:w-64 md:h-64">
             <Image 
-              src="/hands_brain.png" 
-              alt="Ilustración mente y manos" 
+              src="/hands_laptop.png" 
+              alt="Ilustración manos y ordenador" 
               fill
               className="object-contain mix-blend-multiply opacity-90"
             />
           </div>
-          <p className="text-[#2d1b4e] italic font-serif text-xl mb-2">Aprende, Crea y Disfruta</p>
-          <h2 className="text-2xl md:text-3xl font-bold text-[#2d1b4e]">Programas pensados para ti</h2>
         </div>
 
         {/* Top Cards: 2 Columns */}
