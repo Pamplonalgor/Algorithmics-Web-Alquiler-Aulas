@@ -22,13 +22,12 @@ export default function SeniorTrainingPage() {
               Formación tecnológica e IA para personas sénior
             </h2>
 
-            <div className="flex flex-col items-center md:items-start gap-3 mt-2">
-              <Link href="/contacto" className="group inline-flex items-center gap-2 text-xl font-bold text-[#2d1b4e] hover:text-slate-600 transition-colors">
+            <div className="flex flex-col items-center md:items-start gap-5 mt-2">
+              <Link href="/contacto" className="group text-xl font-bold text-[#2d1b4e] hover:text-slate-600 transition-colors">
                 <span className="relative">
                   Pide Información
                   <span className="absolute left-0 -bottom-1 w-full h-[3px] bg-[#2d1b4e] group-hover:bg-slate-600 transition-colors"></span>
                 </span>
-                <span className="transform transition-transform group-hover:translate-x-1">&rarr;</span>
               </Link>
               <p className="text-sm text-slate-500 font-medium">o llama al <span className="font-bold text-[#2d1b4e]">689 46 78 52</span></p>
             </div>
