@@ -78,8 +78,8 @@ export default function SeniorTrainingPage() {
 
             </div>
 
-            {/* Right Column: 40% Collage */}
-            <div className="w-full lg:w-[40%] relative min-h-[450px] lg:min-h-0 bg-transparent flex items-center justify-center">
+            {/* Right Column: 40% Collage (Sticky) */}
+            <div className="w-full lg:w-[40%] relative min-h-[450px] lg:min-h-[600px] lg:sticky lg:top-32 self-start bg-transparent flex items-center justify-center">
               <div className="relative w-full h-full max-w-[450px] aspect-[4/5] lg:aspect-auto lg:absolute lg:inset-0">
                 {/* Photo 1 (Top Left) */}
                 <div className="absolute top-[5%] left-[5%] w-[55%] aspect-square rounded-[2rem] overflow-hidden shadow-lg border-[6px] border-[#FCF9F2] z-20 hover:scale-105 transition-transform duration-300">
