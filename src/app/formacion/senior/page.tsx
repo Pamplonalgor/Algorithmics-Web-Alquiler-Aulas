@@ -24,24 +24,24 @@ export default function SeniorTrainingPage() {
             Un espacio donde descubrir la tecnología de forma práctica y con un ambiente cercano. ¡Nunca es tarde para aprender!
           </p>
 
-          <div className="pt-4 flex flex-col items-center">
+          {/* Illustration Section */}
+          <div className="w-full flex justify-center mt-8 mb-6 md:mt-10 md:mb-8">
+            <div className="relative w-[250px] h-[250px] md:w-[400px] md:h-[400px]">
+              <Image 
+                src="/hands_laptop.png" 
+                alt="Ilustración decorativa" 
+                fill
+                className="object-contain"
+                priority
+              />
+            </div>
+          </div>
+
+          <div className="flex flex-col items-center">
             <Link href="/contacto" className="inline-block bg-[#2d1b4e] text-white px-10 py-4 md:py-5 rounded-[2rem] font-bold text-lg hover:bg-slate-800 transition-all shadow-xl hover:-translate-y-1">
               Pide Información
             </Link>
             <p className="text-sm text-center text-slate-500 font-medium mt-4">o llama al <span className="font-bold text-[#2d1b4e]">689 46 78 52</span></p>
-          </div>
-        </div>
-
-        {/* Illustration Section */}
-        <div className="w-full flex justify-center mb-12">
-          <div className="relative w-[200px] h-[200px] md:w-[300px] md:h-[300px]">
-            <Image 
-              src="/hands_laptop.png" 
-              alt="Ilustración decorativa" 
-              fill
-              className="object-contain"
-              priority
-            />
           </div>
         </div>
 
