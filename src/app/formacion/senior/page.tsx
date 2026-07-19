@@ -9,12 +9,6 @@ export default function SeniorTrainingPage() {
 
       <div className="max-w-5xl mx-auto relative z-10">
         
-        {/* Back Navigation */}
-        <div className="w-full flex justify-start mb-8">
-          <Link href="/formacion" className="inline-flex items-center text-sm font-semibold text-slate-600 hover:text-[#2d1b4e] transition-colors bg-white/80 backdrop-blur-sm px-4 py-2 rounded-full border border-slate-200/50 shadow-sm">
-            Volver a Formación
-          </Link>
-        </div>
 
         {/* Header Section (Centered) */}
         <div className="text-center space-y-6 mb-16">
