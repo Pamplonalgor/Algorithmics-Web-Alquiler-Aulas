@@ -32,8 +32,18 @@ export default function SeniorTrainingPage() {
           </div>
         </div>
 
-        <div className="w-full text-center mb-10">
-           <h2 className="text-3xl md:text-4xl font-semibold text-[#2d1b4e]">Programas para ti</h2>
+        {/* Illustration Section */}
+        <div className="w-full text-center mb-12 flex flex-col items-center">
+          <div className="relative w-48 h-48 md:w-56 md:h-56 mb-2">
+            <Image 
+              src="/hands_brain.png" 
+              alt="Ilustración mente y manos" 
+              fill
+              className="object-contain mix-blend-multiply opacity-90"
+            />
+          </div>
+          <p className="text-[#2d1b4e] italic font-serif text-xl mb-2">Aprende, Crea y Disfruta</p>
+          <h2 className="text-2xl md:text-3xl font-bold text-[#2d1b4e]">Programas pensados para ti</h2>
         </div>
 
         {/* Top Cards: 2 Columns */}
@@ -70,11 +80,11 @@ export default function SeniorTrainingPage() {
         </div>
 
         {/* Bottom Card: Horizontal with Image */}
-        <div className="bg-[#FFF4E5] rounded-[2.5rem] p-8 md:p-12 w-full flex flex-col md:flex-row gap-10 items-center shadow-sm hover:-translate-y-1 transition-transform">
+        <div className="bg-[#FFF4E5] rounded-[2rem] p-6 md:p-8 w-full flex flex-col md:flex-row gap-8 items-center shadow-sm hover:-translate-y-1 transition-transform">
           {/* Image Left */}
-          <div className="w-full md:w-1/3 relative aspect-[4/3] md:aspect-square rounded-[2rem] overflow-hidden shadow-lg border-4 border-white">
+          <div className="w-full md:w-1/3 relative aspect-[4/3] rounded-[1.5rem] overflow-hidden shadow-sm border-4 border-white">
             <Image 
-              src="/seniors_learning.png" 
+              src="/two_seniors_learning.png" 
               alt="Seniors aprendiendo tecnología" 
               fill
               className="object-cover"
@@ -83,25 +93,25 @@ export default function SeniorTrainingPage() {
           
           {/* Content Center */}
           <div className="w-full md:w-1/3 flex flex-col justify-center text-center md:text-left">
-            <div className="bg-white/50 text-[#2d1b4e] text-xs font-bold px-4 py-2 rounded-full inline-flex w-max mb-6 mx-auto md:mx-0">
+            <div className="bg-white/50 text-[#2d1b4e] text-xs font-bold px-3 py-1.5 rounded-full inline-flex w-max mb-4 mx-auto md:mx-0">
               Creatividad
             </div>
-            <h3 className="text-3xl font-bold leading-tight mb-4">Diseño Creativo<br/>con Canva + 3D</h3>
-            <p className="text-slate-600 leading-relaxed text-lg">Crea diseños increíbles, invitaciones y proyectos únicos. Desde Canva desde cero hasta impresión 3D para dar forma a tus ideas.</p>
+            <h3 className="text-2xl font-bold leading-tight mb-3">Diseño Creativo<br/>con Canva + 3D</h3>
+            <p className="text-slate-600 leading-relaxed text-base">Crea diseños increíbles, invitaciones y proyectos únicos. Desde Canva desde cero hasta impresión 3D para dar forma a tus ideas.</p>
           </div>
 
           {/* Tags Right */}
-          <div className="w-full md:w-1/3 flex flex-col justify-center gap-3">
-            <div className="bg-white px-5 py-3 rounded-2xl shadow-sm text-center font-medium text-[#2d1b4e]">
+          <div className="w-full md:w-1/3 flex flex-col justify-center gap-2">
+            <div className="bg-white px-4 py-2 rounded-xl shadow-sm text-center font-medium text-sm text-[#2d1b4e]">
               Max. 6 alumnos
             </div>
-            <div className="bg-white px-5 py-3 rounded-2xl shadow-sm text-center font-medium text-[#2d1b4e]">
+            <div className="bg-white px-4 py-2 rounded-xl shadow-sm text-center font-medium text-sm text-[#2d1b4e]">
               1.5h semanal
             </div>
-            <div className="bg-white px-5 py-3 rounded-2xl shadow-sm text-center font-medium text-[#2d1b4e]">
+            <div className="bg-white px-4 py-2 rounded-xl shadow-sm text-center font-medium text-sm text-[#2d1b4e]">
               Ambiente cercano
             </div>
-            <div className="bg-white px-5 py-3 rounded-2xl shadow-sm text-center font-medium text-[#2d1b4e]">
+            <div className="bg-white px-4 py-2 rounded-xl shadow-sm text-center font-medium text-sm text-[#2d1b4e]">
               Todos los niveles
             </div>
           </div>
