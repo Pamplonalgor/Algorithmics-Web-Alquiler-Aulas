@@ -13,17 +13,17 @@ export default function SeniorTrainingPage() {
         <div className="flex flex-col md:flex-row items-center justify-between gap-12 mb-16 mt-12 md:mt-16">
           
           {/* Left: Text & CTA */}
-          <div className="w-full md:w-1/2 text-center md:text-left flex flex-col items-center md:items-start">
-            <h1 className="text-4xl md:text-5xl lg:text-6xl font-extrabold leading-[1.1] tracking-tight text-[#2d1b4e] mb-6">
+          <div className="w-full md:w-1/2 text-center md:text-left flex flex-col items-center md:items-start gap-8">
+            <h1 className="text-4xl md:text-5xl lg:text-6xl font-extrabold leading-tight tracking-tight text-[#2d1b4e]">
               Tecnología útil para tu día a día
             </h1>
             
-            <h2 className="text-xl md:text-2xl font-medium text-slate-600 leading-relaxed mb-10 max-w-lg">
+            <h2 className="text-xl md:text-2xl font-medium text-slate-600 leading-normal max-w-lg">
               Formación tecnológica e IA para personas sénior
             </h2>
 
-            <div className="flex flex-col items-center md:items-start">
-              <Link href="/contacto" className="inline-block bg-[#2d1b4e] text-white px-10 py-4 md:py-5 rounded-[2rem] font-bold text-lg hover:bg-slate-800 transition-all shadow-xl hover:-translate-y-1 mb-4">
+            <div className="flex flex-col items-center md:items-start gap-3 pt-2">
+              <Link href="/contacto" className="inline-block bg-[#2d1b4e] text-white px-10 py-4 md:py-5 rounded-[2rem] font-bold text-lg hover:bg-slate-800 transition-all shadow-xl hover:-translate-y-1">
                 Pide Información
               </Link>
               <p className="text-sm text-slate-500 font-medium">o llama al <span className="font-bold text-[#2d1b4e]">689 46 78 52</span></p>
