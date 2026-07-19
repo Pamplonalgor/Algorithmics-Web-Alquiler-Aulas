@@ -81,18 +81,18 @@ export default function SeniorTrainingPage() {
             </div>
 
             {/* Right Column: 40% Collage (Sticky) */}
-            <div className="w-full lg:w-[40%] relative min-h-[450px] lg:min-h-[750px] lg:sticky lg:top-24 self-start bg-transparent flex items-center justify-center">
-              <div className="relative w-full h-full max-w-[450px] aspect-[4/5] lg:aspect-auto lg:absolute lg:inset-0">
+            <div className="w-full lg:w-[40%] lg:sticky lg:top-32 self-start bg-transparent flex items-center justify-center pt-8">
+              <div className="relative w-full max-w-[450px] aspect-[4/5] lg:aspect-[3/4]">
                 {/* Photo 1 (Top Left) */}
-                <div className="absolute top-[2%] left-[0%] w-[55%] aspect-[4/5] rounded-[2rem] overflow-hidden shadow-lg border-[6px] border-[#FCF9F2] z-20 hover:scale-105 transition-transform duration-300">
+                <div className="absolute top-[0%] left-[0%] w-[55%] aspect-[4/5] rounded-[2rem] overflow-hidden shadow-lg border-[6px] border-[#FCF9F2] z-20 hover:scale-105 transition-transform duration-300">
                   <Image src="/senior_mobile_v2.png" alt="Persona usando móvil" fill className="object-cover" />
                 </div>
                 {/* Photo 3 (Middle Right) */}
-                <div className="absolute top-[32%] right-[0%] w-[55%] aspect-[3/4] rounded-[2rem] overflow-hidden shadow-lg border-[6px] border-[#FCF9F2] z-10 hover:scale-105 transition-transform duration-300">
+                <div className="absolute top-[25%] right-[0%] w-[55%] aspect-[3/4] rounded-[2rem] overflow-hidden shadow-lg border-[6px] border-[#FCF9F2] z-10 hover:scale-105 transition-transform duration-300">
                   <Image src="/senior_group_v2.png" alt="Grupo en clase" fill className="object-cover" />
                 </div>
-                {/* Photo 2 (Bottom Left) - Focused/Normal */}
-                <div className="absolute bottom-[2%] left-[5%] w-[65%] aspect-[4/3] rounded-[2rem] overflow-hidden shadow-xl border-[6px] border-[#FCF9F2] z-30 hover:scale-105 transition-transform duration-300">
+                {/* Photo 2 (Bottom Left) */}
+                <div className="absolute bottom-[0%] left-[5%] w-[65%] aspect-[4/3] rounded-[2rem] overflow-hidden shadow-xl border-[6px] border-[#FCF9F2] z-30 hover:scale-105 transition-transform duration-300">
                   <Image src="/senior_couple_laptop.png" alt="Pareja concentrada con portátil" fill className="object-cover" />
                 </div>
               </div>
