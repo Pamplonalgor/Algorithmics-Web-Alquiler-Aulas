@@ -26,17 +26,6 @@ export default function SeniorTrainingPage() {
             Formación tecnológica e IA para personas sénior
           </h2>
 
-          {/* Illustration Section */}
-          <div className="w-full flex justify-center mt-2 mb-4 md:mt-4 md:mb-6">
-            <Image 
-              src="/hands_laptop.png" 
-              alt="Ilustración tecnología senior" 
-              width={550}
-              height={350}
-              className="w-[320px] sm:w-[400px] md:w-[550px] h-auto object-contain"
-              priority
-            />
-          </div>
 
           <div className="flex flex-col items-center">
             <Link href="/contacto" className="inline-block bg-[#2d1b4e] text-white px-10 py-4 md:py-5 rounded-[2rem] font-bold text-lg hover:bg-slate-800 transition-all shadow-xl hover:-translate-y-1">
