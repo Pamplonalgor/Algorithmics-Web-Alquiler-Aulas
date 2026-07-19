@@ -47,39 +47,37 @@ export default function SeniorTrainingPage() {
           </div>
         </div>
 
-        {/* Top Cards: 2 Columns */}
-        <div className="grid grid-cols-1 md:grid-cols-2 gap-8 w-full mb-8">
-          {/* Card 1: Tecnología */}
-          <div className="bg-[#EAEFEA] rounded-[2.5rem] p-8 md:p-10 flex flex-col h-full hover:-translate-y-1 transition-transform shadow-sm">
-            <div className="flex items-start justify-between mb-6">
-              <div className="bg-white/50 text-[#2d1b4e] text-xs font-bold px-4 py-2 rounded-full inline-flex w-max">
+        {/* Horizontal Cards */}
+        <div className="flex flex-col gap-6 w-full mb-8">
+          
+          {/* Card 1: Tecnología (Image Left) */}
+          <div className="bg-[#EAEFEA] rounded-[2.5rem] p-6 md:p-8 flex flex-col md:flex-row items-stretch hover:-translate-y-1 transition-transform shadow-sm gap-8">
+            <div className="w-full md:w-1/2 relative min-h-[250px] md:min-h-0 rounded-[2rem] overflow-hidden">
+              <Image src="/senior_mobile.png" alt="Persona sénior usando dispositivo móvil" fill className="object-cover" />
+            </div>
+            <div className="w-full md:w-1/2 flex flex-col justify-center py-4 md:py-8 pr-4">
+              <div className="bg-white/50 text-[#2d1b4e] text-xs font-bold px-4 py-2 rounded-full inline-flex w-max mb-6">
                 Para el día a día
               </div>
-              <div className="bg-[#D3E4D6] rounded-2xl p-3 flex items-center justify-center w-14 h-14 shadow-inner shrink-0 ml-4">
-                <svg className="w-7 h-7 text-[#2A755F]" fill="none" viewBox="0 0 24 24" stroke="currentColor">
-                  <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={1.5} d="M12 18h.01M8 21h8a2 2 0 002-2V5a2 2 0 00-2-2H8a2 2 0 00-2 2v14a2 2 0 002 2z" />
-                </svg>
-              </div>
+              <h3 className="text-3xl font-bold leading-tight mb-4">Tecnología Útil</h3>
+              <p className="text-slate-600 leading-relaxed text-lg">Aprende WhatsApp, videollamadas, banca digital, viajes y trámites online con confianza.</p>
             </div>
-            <h3 className="text-3xl font-bold leading-tight mb-4">Tecnología<br/>Útil</h3>
-            <p className="text-slate-600 flex-grow leading-relaxed">Domina WhatsApp, Google Workspace, Viajes, Banca digital y Seguridad digital. Conecta, organízate y gana autonomía.</p>
           </div>
 
-          {/* Card 2: IA Práctica */}
-          <div className="bg-[#F2EAFA] rounded-[2.5rem] p-8 md:p-10 flex flex-col h-full hover:-translate-y-1 transition-transform shadow-sm">
-            <div className="flex items-start justify-between mb-6">
-              <div className="bg-white/50 text-[#2d1b4e] text-xs font-bold px-4 py-2 rounded-full inline-flex w-max">
+          {/* Card 2: IA Práctica (Image Right) */}
+          <div className="bg-[#F2EAFA] rounded-[2.5rem] p-6 md:p-8 flex flex-col md:flex-row-reverse items-stretch hover:-translate-y-1 transition-transform shadow-sm gap-8">
+            <div className="w-full md:w-1/2 relative min-h-[250px] md:min-h-0 rounded-[2rem] overflow-hidden">
+              <Image src="/senior_laptop.png" alt="Persona sénior usando ordenador portátil" fill className="object-cover" />
+            </div>
+            <div className="w-full md:w-1/2 flex flex-col justify-center py-4 md:py-8 md:pl-8">
+              <div className="bg-white/50 text-[#2d1b4e] text-xs font-bold px-4 py-2 rounded-full inline-flex w-max mb-6">
                 Innovación
               </div>
-              <div className="bg-[#E4D1F0] rounded-2xl p-3 flex items-center justify-center w-14 h-14 shadow-inner shrink-0 ml-4">
-                <svg className="w-7 h-7 text-[#8B3A89]" fill="none" viewBox="0 0 24 24" stroke="currentColor">
-                  <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={1.5} d="M9.663 17h4.673M12 3v1m6.364 1.636l-.707.707M21 12h-1M4 12H3m3.343-5.657l-.707-.707m2.828 9.9a5 5 0 117.072 0l-.548.547A3.374 3.374 0 0014 18.469V19a2 2 0 11-4 0v-.531c0-.895-.356-1.754-.988-2.386l-.548-.547z" />
-                </svg>
-              </div>
+              <h3 className="text-3xl font-bold leading-tight mb-4">IA Práctica<br/>para tu vida</h3>
+              <p className="text-slate-600 leading-relaxed text-lg">Descubre cómo la inteligencia artificial puede ayudarte a organizar tareas, resolver dudas y ahorrar tiempo.</p>
             </div>
-            <h3 className="text-3xl font-bold leading-tight mb-4">IA Práctica<br/>para tu vida</h3>
-            <p className="text-slate-600 flex-grow leading-relaxed">Descubre cómo la inteligencia artificial puede ayudarte cada día a organizar tareas, resumir textos, y resolver dudas.</p>
           </div>
+
         </div>
 
         {/* Bottom Card: Horizontal with Image */}
