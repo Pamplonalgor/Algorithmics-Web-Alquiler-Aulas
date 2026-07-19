@@ -25,16 +25,15 @@ export default function SeniorTrainingPage() {
           </p>
 
           {/* Illustration Section */}
-          <div className="w-full flex justify-center mt-8 mb-6 md:mt-10 md:mb-10">
-            <div className="relative w-[320px] h-[320px] sm:w-[450px] sm:h-[450px] md:w-[650px] md:h-[650px] lg:w-[800px] lg:h-[800px]">
-              <Image 
-                src="/hands_laptop.png" 
-                alt="Ilustración decorativa" 
-                fill
-                className="object-contain"
-                priority
-              />
-            </div>
+          <div className="w-full flex justify-center mt-4 mb-2 md:mt-8 md:mb-4">
+            <Image 
+              src="/hands_laptop.png" 
+              alt="Ilustración decorativa" 
+              width={800}
+              height={500}
+              className="w-[320px] sm:w-[450px] md:w-[650px] lg:w-[800px] h-auto object-contain translate-y-2"
+              priority
+            />
           </div>
 
           <div className="flex flex-col items-center">
